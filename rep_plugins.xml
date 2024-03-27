@@ -1,0 +1,11 @@
+<library path="lib/librep_plugins">
+  <class type="rep_plugins::SimpleFacesPlugin" base_class_type="rep_plugins::PluginBase">
+    <description>An attention plugin managing faces</description>
+  </class>
+  <class type="rep_plugins::AgentsGazePlugin" base_class_type="rep_plugins::PluginBase">
+    <description>A plugin highlighting the gaze direction of the agents in the scene</description>
+  </class>
+  <class type="rep_plugins::ObjectDetection3DPlugin" base_class_type="rep_plugins::PluginBase">
+    <description>A plugin for detected object provided of 3D information (3D bounding box)</description>
+  </class>
+</library>
